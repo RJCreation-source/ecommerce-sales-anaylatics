@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,Category,Product,Sales,Profit,Quantity,Customer_Segment,Region
+1,2023-01-01,Books,Novel,34255,2094,9,Corporate,South
+2,2023-01-02,Sports,Novel,40890,7418,1,Corporate,East
+3,2023-01-03,Home,Novel,24211,3566,1,Consumer,West
+4,2023-01-04,Sports,Novel,26622,9300,4,Home Office,South
+5,2023-01-05,Sports,Bat,9660,9218,7,Corporate,North
+6,2023-01-06,Clothing,Bat,27713,4627,1,Home Office,North
+7,2023-01-07,Home,T-Shirt,39920,777,9,Consumer,South
+8,2023-01-08,Home,Laptop,7921,7518,4,Corporate,South
+9,2023-01-09,Home,Novel,21900,392,3,Corporate,South
+10,2023-01-10,Sports,T-Shirt,34037,1497,1,Consumer,East
+11,2023-01-11,Books,Laptop,18227,6631,4,Corporate,North
+12,2023-01-12,Home,Sofa,47382,6367,9,Consumer,East
+13,2023-01-13,Sports,Bat,4858,576,6,Corporate,East
+14,2023-01-14,Clothing,Laptop,28982,6798,6,Consumer,West
+15,2023-01-15,Books,Sofa,32617,455,1,Corporate,North
+16,2023-01-16,Clothing,Laptop,23664,8036,2,Home Office,North
+17,2023-01-17,Books,Bat,32410,9815,6,Home Office,South
+18,2023-01-18,Sports,Bat,32996,3790,2,Home Office,South
+19,2023-01-19,Electronics,T-Shirt,44811,1896,3,Corporate,West
+20,2023-01-20,Books,Novel,29871,1528,4,Corporate,East
+21,2023-01-21,Clothing,Laptop,38967,821,5,Home Office,South
+22,2023-01-22,Sports,Laptop,18125,5575,9,Home Office,South
+23,2023-01-23,Books,Sofa,34393,8820,4,Consumer,North
+24,2023-01-24,Electronics,Bat,11293,243,9,Consumer,North
+25,2023-01-25,Electronics,Laptop,31507,2057,3,Consumer,South
+26,2023-01-26,Home,Bat,26266,1235,8,Home Office,North
+27,2023-01-27,Home,Laptop,40032,2444,1,Home Office,West
+28,2023-01-28,Clothing,T-Shirt,12823,9352,9,Home Office,South
+29,2023-01-29,Books,Novel,46299,4055,9,Consumer,North
+30,2023-01-30,Books,Laptop,47320,7479,2,Corporate,West
+31,2023-01-31,Home,Bat,45908,2311,4,Home Office,North
+32,2023-02-01,Books,T-Shirt,8343,3786,8,Corporate,North
+33,2023-02-02,Books,Laptop,14710,6766,7,Corporate,North
+34,2023-02-03,Electronics,Sofa,16956,4925,1,Corporate,South
+35,2023-02-04,Home,Novel,31867,8971,5,Consumer,East
+36,2023-02-05,Sports,Laptop,10606,4428,7,Corporate,North
+37,2023-02-06,Home,T-Shirt,38457,7865,4,Home Office,West
+38,2023-02-07,Sports,Sofa,2972,3501,1,Consumer,South
+39,2023-02-08,Electronics,T-Shirt,7204,7666,9,Home Office,South
+40,2023-02-09,Clothing,T-Shirt,4213,9886,5,Home Office,West
+41,2023-02-10,Books,Sofa,5551,2850,2,Consumer,North
+42,2023-02-11,Electronics,T-Shirt,11256,8383,8,Home Office,East
+43,2023-02-12,Books,Sofa,2975,5460,2,Home Office,North
+44,2023-02-13,Clothing,Laptop,36878,1505,3,Consumer,West
+45,2023-02-14,Clothing,Sofa,4755,6942,1,Home Office,South
+46,2023-02-15,Electronics,Sofa,14984,5858,2,Corporate,East
+47,2023-02-16,Clothing,Novel,35003,6846,7,Home Office,South
+48,2023-02-17,Sports,Sofa,8758,4846,2,Corporate,West
+49,2023-02-18,Clothing,Sofa,41247,5143,6,Home Office,North
+50,2023-02-19,Books,Laptop,35696,1375,3,Consumer,East
+51,2023-02-20,Books,Novel,45613,5026,4,Consumer,South
+52,2023-02-21,Books,Bat,40694,9455,8,Home Office,South
+53,2023-02-22,Books,Laptop,9033,1209,3,Consumer,South
+54,2023-02-23,Sports,Laptop,33081,4700,6,Home Office,North
+55,2023-02-24,Home,Bat,5749,5037,1,Consumer,East
+56,2023-02-25,Electronics,Sofa,19701,4747,7,Corporate,North
+57,2023-02-26,Books,T-Shirt,10186,390,8,Home Office,North
+58,2023-02-27,Clothing,Novel,47377,3878,8,Corporate,North
+59,2023-02-28,Books,T-Shirt,32507,2018,3,Corporate,West
+60,2023-03-01,Clothing,Bat,1161,753,1,Home Office,West
+61,2023-03-02,Clothing,Laptop,45343,5532,9,Corporate,West
+62,2023-03-03,Books,Laptop,30637,6426,6,Home Office,East
+63,2023-03-04,Sports,Novel,48056,1850,9,Corporate,North
+64,2023-03-05,Clothing,Laptop,43328,5513,7,Home Office,North
+65,2023-03-06,Clothing,Laptop,49104,4962,1,Home Office,West
+66,2023-03-07,Books,Novel,11026,4698,1,Consumer,North
+67,2023-03-08,Clothing,Novel,3874,905,6,Home Office,North
+68,2023-03-09,Clothing,Bat,26092,2916,5,Home Office,South
+69,2023-03-10,Books,Laptop,29482,232,9,Corporate,North
+70,2023-03-11,Books,Laptop,707,3162,2,Home Office,South
+71,2023-03-12,Electronics,Bat,35933,5720,8,Consumer,North
+72,2023-03-13,Sports,Sofa,23697,4542,5,Corporate,East
+73,2023-03-14,Sports,Sofa,33900,5873,2,Corporate,West
+74,2023-03-15,Clothing,Sofa,3583,1567,6,Consumer,South
+75,2023-03-16,Sports,Bat,29828,5052,8,Corporate,West
+76,2023-03-17,Clothing,Laptop,46979,1406,4,Corporate,South
+77,2023-03-18,Electronics,Bat,43391,3679,2,Corporate,South
+78,2023-03-19,Books,Bat,20603,3678,5,Corporate,South
+79,2023-03-20,Books,Sofa,40391,8260,2,Consumer,East
+80,2023-03-21,Books,T-Shirt,11254,6182,2,Consumer,North
+81,2023-03-22,Sports,Laptop,34947,9374,6,Corporate,South
+82,2023-03-23,Electronics,Sofa,16401,6638,9,Corporate,East
+83,2023-03-24,Sports,T-Shirt,33504,3361,4,Consumer,South
+84,2023-03-25,Sports,T-Shirt,7946,6098,6,Consumer,North
+85,2023-03-26,Electronics,Novel,37711,6296,7,Consumer,South
+86,2023-03-27,Electronics,Laptop,48731,1037,6,Corporate,East
+87,2023-03-28,Electronics,T-Shirt,29801,3371,8,Corporate,North
+88,2023-03-29,Electronics,Sofa,26616,4665,4,Home Office,East
+89,2023-03-30,Books,Novel,41823,8415,1,Consumer,North
+90,2023-03-31,Home,Laptop,19252,3791,7,Corporate,North
+91,2023-04-01,Home,Bat,32876,3102,3,Consumer,West
+92,2023-04-02,Electronics,Sofa,17169,6624,6,Corporate,West
+93,2023-04-03,Home,T-Shirt,33416,776,2,Consumer,West
+94,2023-04-04,Home,T-Shirt,13895,3810,9,Corporate,North
+95,2023-04-05,Electronics,Sofa,20921,5856,1,Home Office,South
+96,2023-04-06,Home,T-Shirt,26842,1925,6,Home Office,East
+97,2023-04-07,Sports,Novel,5395,7043,6,Consumer,East
+98,2023-04-08,Clothing,Laptop,11523,4083,5,Corporate,East
+99,2023-04-09,Clothing,Novel,11199,5493,5,Corporate,West
+100,2023-04-10,Electronics,T-Shirt,10215,1039,1,Consumer,North
+101,2023-04-11,Books,Bat,19669,3794,5,Corporate,West
+102,2023-04-12,Electronics,Laptop,16663,8661,2,Consumer,South
+103,2023-04-13,Books,Laptop,6282,643,7,Corporate,North
+104,2023-04-14,Clothing,Sofa,23141,1824,3,Consumer,East
+105,2023-04-15,Electronics,Sofa,19292,985,4,Corporate,West
+106,2023-04-16,Sports,Bat,49992,3858,3,Consumer,West
+107,2023-04-17,Home,Laptop,36085,381,3,Corporate,South
+108,2023-04-18,Books,Bat,31182,7972,4,Home Office,South
+109,2023-04-19,Home,Sofa,48364,2752,5,Corporate,West
+110,2023-04-20,Home,Sofa,19380,5939,1,Consumer,South
+111,2023-04-21,Electronics,Laptop,38567,5104,4,Home Office,East
+112,2023-04-22,Home,Novel,43185,3918,8,Corporate,South
+113,2023-04-23,Sports,T-Shirt,18573,4250,7,Home Office,South
+114,2023-04-24,Home,Sofa,36535,251,9,Corporate,West
+115,2023-04-25,Electronics,Sofa,37674,2547,5,Home Office,West
+116,2023-04-26,Sports,Novel,25337,1892,4,Consumer,North
+117,2023-04-27,Clothing,Novel,18326,9151,8,Corporate,North
+118,2023-04-28,Home,Bat,25481,4708,9,Corporate,West
+119,2023-04-29,Electronics,Bat,10882,7594,7,Consumer,South
+120,2023-04-30,Clothing,T-Shirt,4937,7768,7,Home Office,South
+121,2023-05-01,Clothing,T-Shirt,5935,820,5,Consumer,North
+122,2023-05-02,Books,Laptop,25319,3205,4,Consumer,North
+123,2023-05-03,Sports,Bat,37375,1678,1,Home Office,North
+124,2023-05-04,Home,Sofa,32482,436,7,Consumer,East
+125,2023-05-05,Electronics,Bat,33828,6081,1,Corporate,East
+126,2023-05-06,Books,Sofa,12829,6489,1,Corporate,North
+127,2023-05-07,Sports,Novel,25669,6451,5,Corporate,South
+128,2023-05-08,Books,Bat,22432,4058,9,Consumer,North
+129,2023-05-09,Sports,Novel,35094,2516,6,Corporate,East
+130,2023-05-10,Sports,T-Shirt,11921,2332,3,Corporate,South
+131,2023-05-11,Home,T-Shirt,45533,1906,3,Corporate,East
+132,2023-05-12,Sports,Laptop,8129,8030,7,Corporate,South
+133,2023-05-13,Books,Bat,8825,2048,6,Corporate,East
+134,2023-05-14,Sports,Novel,28995,5526,9,Corporate,South
+135,2023-05-15,Home,Sofa,32250,9478,6,Consumer,South
+136,2023-05-16,Home,T-Shirt,30119,4719,5,Corporate,South
+137,2023-05-17,Books,T-Shirt,40961,9392,7,Corporate,South
+138,2023-05-18,Clothing,Sofa,8764,4368,1,Home Office,West
+139,2023-05-19,Clothing,Novel,13186,7114,7,Consumer,East
+140,2023-05-20,Sports,Novel,46984,7496,3,Consumer,East
+141,2023-05-21,Electronics,Bat,24726,1481,9,Consumer,West
+142,2023-05-22,Sports,Bat,7221,5674,6,Consumer,South
+143,2023-05-23,Books,Laptop,21109,7511,9,Corporate,South
+144,2023-05-24,Books,T-Shirt,7873,1869,5,Corporate,East
+145,2023-05-25,Books,Bat,39175,1180,7,Home Office,West
+146,2023-05-26,Books,Novel,49395,6613,4,Home Office,South
+147,2023-05-27,Books,Sofa,29437,2708,7,Consumer,South
+148,2023-05-28,Home,Novel,6156,3550,1,Home Office,South
+149,2023-05-29,Clothing,T-Shirt,9484,8616,7,Home Office,North
+150,2023-05-30,Books,Novel,30484,2170,8,Consumer,West
+151,2023-05-31,Electronics,Laptop,8786,4070,5,Consumer,South
+152,2023-06-01,Electronics,T-Shirt,6401,3309,2,Home Office,North
+153,2023-06-02,Electronics,Sofa,32052,1873,5,Corporate,West
+154,2023-06-03,Electronics,Laptop,26209,1524,6,Home Office,South
+155,2023-06-04,Home,T-Shirt,31555,2292,2,Home Office,East
+156,2023-06-05,Electronics,Sofa,38185,3293,6,Corporate,North
+157,2023-06-06,Books,Laptop,8929,7040,6,Corporate,North
+158,2023-06-07,Sports,Laptop,15216,5210,1,Consumer,South
+159,2023-06-08,Electronics,T-Shirt,49063,3184,1,Consumer,South
+160,2023-06-09,Home,Bat,11638,2120,3,Home Office,North
+161,2023-06-10,Home,Laptop,35798,409,3,Corporate,East
+162,2023-06-11,Electronics,Laptop,23929,1191,4,Consumer,East
+163,2023-06-12,Sports,Sofa,6272,1685,2,Home Office,West
+164,2023-06-13,Electronics,Novel,48744,4050,9,Corporate,South
+165,2023-06-14,Home,T-Shirt,49019,3411,7,Home Office,East
+166,2023-06-15,Clothing,T-Shirt,36232,6633,7,Consumer,West
+167,2023-06-16,Books,Bat,40405,7885,6,Consumer,East
+168,2023-06-17,Home,Bat,17847,56,3,Corporate,South
+169,2023-06-18,Electronics,T-Shirt,17420,3317,6,Home Office,West
+170,2023-06-19,Books,Bat,32322,6614,8,Corporate,West
+171,2023-06-20,Electronics,Sofa,47159,9833,8,Consumer,West
+172,2023-06-21,Electronics,T-Shirt,40608,4978,9,Consumer,East
+173,2023-06-22,Clothing,Bat,24063,2656,1,Home Office,South
+174,2023-06-23,Books,T-Shirt,8467,5956,1,Home Office,West
+175,2023-06-24,Books,Novel,45683,3323,3,Home Office,North
+176,2023-06-25,Clothing,Laptop,12371,7661,3,Corporate,South
+177,2023-06-26,Home,T-Shirt,29263,963,8,Home Office,North
+178,2023-06-27,Electronics,Laptop,12416,2061,1,Home Office,North
+179,2023-06-28,Sports,Bat,9234,1492,2,Consumer,West
+180,2023-06-29,Electronics,Laptop,34113,5596,2,Consumer,West
+181,2023-06-30,Electronics,T-Shirt,28679,1879,3,Home Office,East
+182,2023-07-01,Home,Novel,35762,8817,6,Home Office,East
+183,2023-07-02,Electronics,Bat,13177,6518,1,Consumer,East
+184,2023-07-03,Clothing,T-Shirt,18768,979,2,Home Office,South
+185,2023-07-04,Clothing,Bat,12830,3749,1,Corporate,East
+186,2023-07-05,Books,Sofa,21233,9705,5,Corporate,North
+187,2023-07-06,Sports,Laptop,38447,1104,7,Corporate,East
+188,2023-07-07,Electronics,Sofa,27786,5794,8,Home Office,West
+189,2023-07-08,Electronics,T-Shirt,7110,1950,1,Consumer,East
+190,2023-07-09,Home,Novel,6930,9699,7,Home Office,South
+191,2023-07-10,Clothing,Bat,40422,7030,5,Home Office,South
+192,2023-07-11,Sports,Laptop,14328,7119,1,Consumer,North
+193,2023-07-12,Books,Bat,43413,9641,3,Consumer,South
+194,2023-07-13,Clothing,T-Shirt,31997,3465,7,Consumer,East
+195,2023-07-14,Books,Bat,39756,492,1,Corporate,West
+196,2023-07-15,Home,Laptop,37118,6268,7,Home Office,South
+197,2023-07-16,Home,T-Shirt,46832,4702,5,Consumer,North
+198,2023-07-17,Electronics,Bat,27026,7989,1,Home Office,East
+199,2023-07-18,Sports,Novel,30658,7883,1,Corporate,North
+200,2023-07-19,Books,T-Shirt,25532,9420,1,Corporate,South
+201,2023-07-20,Clothing,T-Shirt,38346,7647,9,Consumer,South
+202,2023-07-21,Home,Novel,45436,4508,3,Consumer,North
+203,2023-07-22,Electronics,Sofa,30294,6641,5,Home Office,East
+204,2023-07-23,Electronics,Laptop,5948,9499,9,Consumer,South
+205,2023-07-24,Books,Sofa,29361,2359,6,Home Office,West
+206,2023-07-25,Home,Bat,28641,6318,9,Consumer,South
+207,2023-07-26,Sports,Novel,9574,960,8,Home Office,East
+208,2023-07-27,Home,Sofa,6906,4390,8,Home Office,South
+209,2023-07-28,Books,T-Shirt,32323,4059,1,Home Office,North
+210,2023-07-29,Books,Bat,23791,6678,9,Home Office,South
+211,2023-07-30,Home,Bat,42068,2219,6,Corporate,South
+212,2023-07-31,Books,Sofa,32503,2222,9,Home Office,East
+213,2023-08-01,Home,Sofa,47351,5718,3,Consumer,North
+214,2023-08-02,Clothing,Novel,34906,6363,3,Corporate,East
+215,2023-08-03,Home,Laptop,23812,8365,6,Corporate,South
+216,2023-08-04,Home,Sofa,43608,8086,9,Home Office,West
+217,2023-08-05,Books,Sofa,1882,6839,7,Corporate,South
+218,2023-08-06,Books,T-Shirt,34671,835,3,Home Office,East
+219,2023-08-07,Electronics,Bat,42279,6189,3,Consumer,West
+220,2023-08-08,Electronics,Laptop,3792,6394,2,Home Office,East
+221,2023-08-09,Clothing,T-Shirt,42279,2466,9,Corporate,East
+222,2023-08-10,Electronics,Novel,33687,9038,3,Consumer,North
+223,2023-08-11,Home,Novel,12911,4204,5,Home Office,West
+224,2023-08-12,Books,Sofa,37785,5669,9,Consumer,South
+225,2023-08-13,Electronics,Sofa,15922,1986,8,Consumer,East
+226,2023-08-14,Electronics,Novel,42968,3857,2,Corporate,South
+227,2023-08-15,Clothing,Sofa,32871,7201,3,Consumer,North
+228,2023-08-16,Clothing,Laptop,6193,9543,2,Corporate,North
+229,2023-08-17,Home,Sofa,34035,3286,8,Consumer,West
+230,2023-08-18,Books,Bat,15318,2402,6,Home Office,North
+231,2023-08-19,Clothing,Sofa,31738,1982,6,Consumer,North
+232,2023-08-20,Electronics,T-Shirt,31374,8606,9,Home Office,South
+233,2023-08-21,Books,Laptop,27215,4966,8,Home Office,North
+234,2023-08-22,Books,T-Shirt,28105,5548,4,Consumer,North
+235,2023-08-23,Electronics,T-Shirt,34817,996,4,Home Office,East
+236,2023-08-24,Clothing,Bat,31674,9619,9,Consumer,North
+237,2023-08-25,Electronics,Laptop,10456,1489,1,Consumer,East
+238,2023-08-26,Books,Laptop,39408,7780,2,Home Office,North
+239,2023-08-27,Sports,Laptop,11337,4907,2,Home Office,North
+240,2023-08-28,Sports,Laptop,4216,390,6,Corporate,West
+241,2023-08-29,Home,Laptop,4981,432,4,Home Office,West
+242,2023-08-30,Electronics,Bat,24782,9798,3,Corporate,East
+243,2023-08-31,Electronics,Sofa,7048,8541,3,Home Office,North
+244,2023-09-01,Home,T-Shirt,38105,188,3,Consumer,South
+245,2023-09-02,Home,Laptop,8258,408,6,Home Office,West
+246,2023-09-03,Home,Sofa,44168,4981,8,Consumer,South
+247,2023-09-04,Books,Sofa,23677,9764,7,Consumer,West
+248,2023-09-05,Electronics,T-Shirt,24522,3506,4,Consumer,West
+249,2023-09-06,Books,Bat,41261,1677,4,Corporate,North
+250,2023-09-07,Home,Novel,6042,9545,2,Home Office,West
+251,2023-09-08,Electronics,Novel,25976,6676,1,Consumer,South
+252,2023-09-09,Books,Sofa,31284,5054,9,Consumer,West
+253,2023-09-10,Books,T-Shirt,23240,9376,2,Corporate,East
+254,2023-09-11,Home,Novel,25317,6702,8,Home Office,North
+255,2023-09-12,Electronics,Sofa,48096,6466,9,Home Office,North
+256,2023-09-13,Home,Bat,16552,3220,4,Corporate,East
+257,2023-09-14,Electronics,Novel,35653,3885,8,Corporate,East
+258,2023-09-15,Sports,Sofa,47576,8067,9,Home Office,East
+259,2023-09-16,Clothing,Sofa,1171,2201,5,Corporate,West
+260,2023-09-17,Clothing,Laptop,663,9479,7,Home Office,North
+261,2023-09-18,Clothing,Bat,41924,6955,4,Home Office,East
+262,2023-09-19,Home,Laptop,44502,2884,1,Consumer,West
+263,2023-09-20,Sports,T-Shirt,5295,9240,3,Consumer,East
+264,2023-09-21,Electronics,Laptop,11134,2617,5,Home Office,South
+265,2023-09-22,Books,Laptop,5298,1357,3,Home Office,South
+266,2023-09-23,Electronics,Novel,22920,8898,7,Home Office,North
+267,2023-09-24,Books,Sofa,29800,2710,9,Home Office,West
+268,2023-09-25,Electronics,Bat,24845,3780,6,Home Office,South
+269,2023-09-26,Sports,Laptop,11249,6257,1,Home Office,South
+270,2023-09-27,Books,Bat,39095,3212,7,Corporate,West
+271,2023-09-28,Home,Laptop,25621,1190,3,Home Office,East
+272,2023-09-29,Electronics,T-Shirt,37987,8508,5,Corporate,West
+273,2023-09-30,Electronics,Laptop,28911,1758,4,Corporate,East
+274,2023-10-01,Books,Novel,33861,3680,5,Home Office,South
+275,2023-10-02,Home,Sofa,21723,3261,5,Home Office,South
+276,2023-10-03,Home,T-Shirt,7894,6588,6,Corporate,South
+277,2023-10-04,Sports,Laptop,14556,9752,6,Corporate,North
+278,2023-10-05,Home,Bat,28880,525,8,Home Office,North
+279,2023-10-06,Home,T-Shirt,26535,7734,8,Home Office,North
+280,2023-10-07,Home,T-Shirt,31120,9218,9,Corporate,West
+281,2023-10-08,Clothing,Laptop,20377,1257,8,Corporate,South
+282,2023-10-09,Sports,T-Shirt,43904,2010,2,Corporate,South
+283,2023-10-10,Electronics,Bat,31411,607,1,Consumer,West
+284,2023-10-11,Books,T-Shirt,33284,932,2,Corporate,North
+285,2023-10-12,Electronics,Bat,3691,4811,2,Consumer,West
+286,2023-10-13,Sports,Laptop,33660,5917,3,Home Office,North
+287,2023-10-14,Books,Sofa,25500,7013,7,Home Office,South
+288,2023-10-15,Sports,T-Shirt,39540,7216,2,Corporate,East
+289,2023-10-16,Home,Sofa,4131,7979,1,Home Office,North
+290,2023-10-17,Books,Bat,6672,5397,6,Home Office,South
+291,2023-10-18,Home,T-Shirt,42580,7319,9,Home Office,South
+292,2023-10-19,Electronics,Novel,24061,9852,3,Home Office,East
+293,2023-10-20,Electronics,Sofa,25317,8175,6,Consumer,South
+294,2023-10-21,Books,T-Shirt,20781,2504,3,Consumer,South
+295,2023-10-22,Books,Sofa,29171,4544,1,Corporate,North
+296,2023-10-23,Sports,T-Shirt,25864,1996,5,Corporate,North
+297,2023-10-24,Sports,Laptop,42174,2858,4,Corporate,East
+298,2023-10-25,Home,Sofa,27925,6692,7,Home Office,East
+299,2023-10-26,Books,Novel,29102,3875,6,Home Office,South
+300,2023-10-27,Electronics,Novel,23753,3586,7,Consumer,North
+301,2023-10-28,Sports,Bat,23972,6118,5,Consumer,East
+302,2023-10-29,Sports,T-Shirt,49730,3852,4,Corporate,East
+303,2023-10-30,Electronics,Sofa,8580,4749,7,Consumer,West
+304,2023-10-31,Sports,Bat,7599,2020,7,Consumer,East
+305,2023-11-01,Home,Sofa,25931,5856,6,Consumer,South
+306,2023-11-02,Books,T-Shirt,31686,6192,8,Consumer,North
+307,2023-11-03,Electronics,Novel,48184,2869,4,Consumer,East
+308,2023-11-04,Books,Laptop,30611,9144,5,Corporate,West
+309,2023-11-05,Sports,Novel,40351,414,4,Corporate,North
+310,2023-11-06,Sports,Bat,23114,4308,1,Consumer,East
+311,2023-11-07,Electronics,Laptop,27224,3169,8,Corporate,West
+312,2023-11-08,Home,Bat,42491,1913,1,Home Office,East
+313,2023-11-09,Clothing,T-Shirt,5440,165,5,Consumer,North
+314,2023-11-10,Electronics,Laptop,29258,7134,6,Home Office,North
+315,2023-11-11,Clothing,Bat,36724,8066,6,Corporate,North
+316,2023-11-12,Clothing,T-Shirt,8288,2434,5,Corporate,South
+317,2023-11-13,Home,Novel,28582,3985,3,Home Office,East
+318,2023-11-14,Clothing,T-Shirt,24534,7792,5,Corporate,South
+319,2023-11-15,Clothing,Sofa,35979,5492,8,Consumer,North
+320,2023-11-16,Home,T-Shirt,11780,2540,2,Home Office,West
+321,2023-11-17,Clothing,T-Shirt,18552,7030,6,Consumer,East
+322,2023-11-18,Clothing,Sofa,17031,9184,9,Home Office,South
+323,2023-11-19,Clothing,Bat,23304,7711,8,Corporate,East
+324,2023-11-20,Electronics,Bat,29403,1774,8,Home Office,West
+325,2023-11-21,Electronics,T-Shirt,45357,8232,8,Home Office,South
+326,2023-11-22,Electronics,Sofa,10642,2817,7,Consumer,North
+327,2023-11-23,Home,Sofa,48855,1187,8,Corporate,South
+328,2023-11-24,Sports,Novel,10366,4167,6,Consumer,East
+329,2023-11-25,Clothing,Bat,5031,3470,2,Corporate,East
+330,2023-11-26,Clothing,Laptop,45954,5895,2,Consumer,East
+331,2023-11-27,Home,Bat,38598,4828,8,Home Office,East
+332,2023-11-28,Clothing,Bat,38778,3956,1,Consumer,North
+333,2023-11-29,Electronics,Novel,28638,3687,6,Corporate,South
+334,2023-11-30,Sports,Laptop,27565,3003,6,Corporate,North
+335,2023-12-01,Books,Novel,30456,5979,4,Home Office,North
+336,2023-12-02,Clothing,Laptop,42232,326,3,Corporate,North
+337,2023-12-03,Electronics,T-Shirt,39761,2049,3,Consumer,East
+338,2023-12-04,Books,Laptop,11259,1277,1,Home Office,East
+339,2023-12-05,Sports,Novel,5939,6387,3,Corporate,East
+340,2023-12-06,Books,Bat,47741,3785,4,Corporate,South
+341,2023-12-07,Electronics,Laptop,43033,745,5,Consumer,West
+342,2023-12-08,Books,Laptop,28770,9551,3,Consumer,East
+343,2023-12-09,Home,Sofa,13779,4202,6,Home Office,South
+344,2023-12-10,Books,Bat,39779,7951,5,Corporate,East
+345,2023-12-11,Clothing,T-Shirt,44751,7520,3,Consumer,East
+346,2023-12-12,Clothing,Novel,24388,7587,6,Home Office,North
+347,2023-12-13,Home,T-Shirt,18130,2891,6,Corporate,North
+348,2023-12-14,Electronics,Bat,35644,4258,8,Corporate,North
+349,2023-12-15,Clothing,Laptop,31682,8783,2,Home Office,South
+350,2023-12-16,Sports,Laptop,26038,1138,1,Home Office,West
+351,2023-12-17,Clothing,Bat,12324,3413,4,Consumer,West
+352,2023-12-18,Clothing,Laptop,32625,74,7,Corporate,South
+353,2023-12-19,Electronics,Laptop,7479,9814,3,Corporate,East
+354,2023-12-20,Books,Laptop,26689,6194,3,Corporate,South
+355,2023-12-21,Clothing,Novel,43100,5718,5,Home Office,East
+356,2023-12-22,Home,Novel,13004,4286,5,Consumer,South
+357,2023-12-23,Books,Sofa,21169,8118,3,Corporate,South
+358,2023-12-24,Sports,T-Shirt,7410,2285,9,Home Office,South
+359,2023-12-25,Electronics,Bat,47357,7345,4,Corporate,West
+360,2023-12-26,Sports,Bat,35464,8442,3,Consumer,North
+361,2023-12-27,Books,Bat,20631,8498,2,Corporate,South
+362,2023-12-28,Books,Sofa,25727,3797,9,Consumer,West
+363,2023-12-29,Books,Novel,6478,3225,4,Consumer,North
+364,2023-12-30,Sports,Sofa,22491,4947,3,Corporate,North
+365,2023-12-31,Books,Bat,17653,5087,7,Corporate,South
+366,2024-01-01,Sports,T-Shirt,34048,7477,8,Consumer,East
+367,2024-01-02,Books,Laptop,43176,8655,2,Home Office,East
+368,2024-01-03,Home,Novel,39571,2064,7,Consumer,East
+369,2024-01-04,Books,Novel,47954,1431,5,Corporate,South
+370,2024-01-05,Sports,Sofa,4483,1148,5,Corporate,East
+371,2024-01-06,Clothing,Novel,10003,3476,3,Home Office,West
+372,2024-01-07,Books,Bat,30421,3705,5,Consumer,West
+373,2024-01-08,Clothing,Bat,17405,7988,2,Consumer,West
+374,2024-01-09,Home,Sofa,46338,9151,4,Consumer,West
+375,2024-01-10,Electronics,Bat,24453,237,6,Corporate,North
+376,2024-01-11,Home,T-Shirt,27306,5459,1,Consumer,West
+377,2024-01-12,Books,Sofa,45500,2142,4,Home Office,East
+378,2024-01-13,Clothing,T-Shirt,22668,2180,6,Corporate,South
+379,2024-01-14,Clothing,Laptop,5083,5292,9,Corporate,East
+380,2024-01-15,Sports,T-Shirt,39214,8599,2,Consumer,West
+381,2024-01-16,Clothing,Laptop,49645,5697,7,Home Office,North
+382,2024-01-17,Sports,Laptop,40396,5235,6,Corporate,West
+383,2024-01-18,Electronics,T-Shirt,12389,5826,2,Corporate,South
+384,2024-01-19,Books,Sofa,27913,7963,8,Consumer,East
+385,2024-01-20,Sports,Bat,12775,7597,7,Consumer,South
+386,2024-01-21,Electronics,Bat,2961,7873,5,Home Office,South
+387,2024-01-22,Clothing,Laptop,14791,7405,5,Consumer,South
+388,2024-01-23,Clothing,Laptop,47304,6515,7,Home Office,East
+389,2024-01-24,Electronics,Sofa,11935,1547,9,Corporate,West
+390,2024-01-25,Clothing,Novel,28435,2605,9,Home Office,South
+391,2024-01-26,Electronics,T-Shirt,33953,5459,9,Home Office,East
+392,2024-01-27,Sports,Laptop,19044,3001,6,Home Office,North
+393,2024-01-28,Sports,Bat,12758,1288,6,Corporate,East
+394,2024-01-29,Electronics,Sofa,31341,9215,3,Consumer,North
+395,2024-01-30,Sports,T-Shirt,49258,4777,1,Corporate,East
+396,2024-01-31,Sports,Sofa,49690,4015,7,Consumer,West
+397,2024-02-01,Sports,T-Shirt,11236,5736,4,Home Office,South
+398,2024-02-02,Home,T-Shirt,38143,9292,1,Home Office,West
+399,2024-02-03,Books,Laptop,44450,3751,8,Home Office,East
+400,2024-02-04,Clothing,Sofa,35464,2830,6,Home Office,South
+401,2024-02-05,Home,Sofa,28544,7448,6,Home Office,North
+402,2024-02-06,Sports,Bat,40433,1638,2,Consumer,East
+403,2024-02-07,Electronics,Bat,16497,2418,1,Consumer,South
+404,2024-02-08,Sports,Laptop,14715,5839,2,Home Office,North
+405,2024-02-09,Books,Laptop,33569,486,4,Corporate,North
+406,2024-02-10,Sports,Novel,24411,2878,2,Corporate,West
+407,2024-02-11,Electronics,Bat,17530,1606,1,Home Office,East
+408,2024-02-12,Books,T-Shirt,29834,7620,7,Consumer,North
+409,2024-02-13,Sports,Sofa,15071,7530,8,Corporate,South
+410,2024-02-14,Books,Laptop,43219,9546,6,Corporate,North
+411,2024-02-15,Clothing,Sofa,29427,232,4,Corporate,North
+412,2024-02-16,Clothing,Sofa,21214,7240,6,Home Office,West
+413,2024-02-17,Sports,Novel,44041,6737,3,Corporate,West
+414,2024-02-18,Books,Bat,23887,5615,8,Corporate,South
+415,2024-02-19,Electronics,Laptop,28944,7291,2,Corporate,West
+416,2024-02-20,Sports,Sofa,49408,7701,5,Corporate,North
+417,2024-02-21,Clothing,Laptop,20421,5625,1,Consumer,North
+418,2024-02-22,Clothing,T-Shirt,13557,1639,6,Home Office,West
+419,2024-02-23,Sports,Novel,45768,9829,2,Home Office,North
+420,2024-02-24,Books,T-Shirt,25358,8901,4,Consumer,North
+421,2024-02-25,Clothing,Laptop,49189,209,6,Consumer,South
+422,2024-02-26,Books,Laptop,45138,6605,8,Home Office,West
+423,2024-02-27,Clothing,Bat,26562,9253,8,Corporate,North
+424,2024-02-28,Clothing,Sofa,37350,8294,6,Corporate,West
+425,2024-02-29,Home,Sofa,46986,6896,4,Home Office,South
+426,2024-03-01,Clothing,T-Shirt,21067,2357,8,Corporate,West
+427,2024-03-02,Electronics,Novel,30239,1278,8,Consumer,North
+428,2024-03-03,Sports,Sofa,43785,7276,1,Corporate,West
+429,2024-03-04,Sports,Bat,4254,5640,4,Corporate,North
+430,2024-03-05,Books,T-Shirt,27544,6969,4,Corporate,North
+431,2024-03-06,Clothing,T-Shirt,2224,5635,7,Home Office,North
+432,2024-03-07,Electronics,Bat,1876,9277,7,Consumer,South
+433,2024-03-08,Books,Novel,9206,6096,8,Corporate,West
+434,2024-03-09,Home,Bat,9394,4995,5,Home Office,South
+435,2024-03-10,Books,Novel,18537,7977,7,Corporate,West
+436,2024-03-11,Books,Bat,18950,7066,8,Consumer,South
+437,2024-03-12,Clothing,Bat,16906,7808,9,Corporate,East
+438,2024-03-13,Home,Laptop,30225,5136,3,Consumer,North
+439,2024-03-14,Books,T-Shirt,6426,9506,3,Corporate,North
+440,2024-03-15,Electronics,Bat,39519,7211,4,Consumer,South
+441,2024-03-16,Electronics,Bat,9996,1934,5,Corporate,East
+442,2024-03-17,Sports,Sofa,36568,1859,1,Consumer,North
+443,2024-03-18,Home,T-Shirt,30306,3217,7,Corporate,West
+444,2024-03-19,Home,Sofa,23163,6402,9,Corporate,South
+445,2024-03-20,Sports,T-Shirt,41821,9059,8,Home Office,North
+446,2024-03-21,Books,Sofa,36995,6106,5,Home Office,North
+447,2024-03-22,Home,Bat,23156,2487,4,Consumer,South
+448,2024-03-23,Electronics,Bat,26360,6518,7,Corporate,South
+449,2024-03-24,Electronics,Laptop,17332,9130,5,Consumer,West
+450,2024-03-25,Clothing,Sofa,39287,6001,7,Home Office,West
+451,2024-03-26,Home,Novel,48731,5326,1,Consumer,North
+452,2024-03-27,Books,Laptop,22227,8909,1,Consumer,North
+453,2024-03-28,Sports,Sofa,43315,7868,3,Home Office,South
+454,2024-03-29,Sports,Sofa,30045,4778,2,Corporate,North
+455,2024-03-30,Books,Laptop,45022,2674,2,Consumer,North
+456,2024-03-31,Clothing,Bat,3020,5788,7,Home Office,South
+457,2024-04-01,Sports,Sofa,3581,4282,2,Corporate,North
+458,2024-04-02,Home,Bat,34696,5843,4,Home Office,North
+459,2024-04-03,Clothing,Laptop,37235,4573,2,Consumer,East
+460,2024-04-04,Home,Bat,39713,5621,6,Corporate,West
+461,2024-04-05,Electronics,T-Shirt,15066,9060,8,Corporate,South
+462,2024-04-06,Clothing,Novel,14542,9348,4,Home Office,East
+463,2024-04-07,Sports,Sofa,25998,2274,5,Home Office,West
+464,2024-04-08,Clothing,Novel,11829,8439,4,Home Office,West
+465,2024-04-09,Clothing,Bat,32156,6141,3,Corporate,West
+466,2024-04-10,Clothing,Sofa,2659,8712,5,Corporate,East
+467,2024-04-11,Clothing,Bat,38400,6411,9,Consumer,East
+468,2024-04-12,Home,T-Shirt,19863,1998,8,Corporate,West
+469,2024-04-13,Electronics,Laptop,48201,7144,8,Consumer,North
+470,2024-04-14,Books,Sofa,43741,6368,8,Home Office,North
+471,2024-04-15,Clothing,T-Shirt,19533,3846,8,Home Office,East
+472,2024-04-16,Sports,T-Shirt,11305,284,7,Corporate,East
+473,2024-04-17,Clothing,Sofa,36351,9170,8,Home Office,East
+474,2024-04-18,Sports,Bat,27332,3657,8,Home Office,West
+475,2024-04-19,Home,T-Shirt,14444,8093,8,Corporate,North
+476,2024-04-20,Sports,Novel,20373,572,7,Consumer,East
+477,2024-04-21,Books,T-Shirt,40872,5954,1,Corporate,East
+478,2024-04-22,Electronics,Bat,24428,4938,4,Consumer,South
+479,2024-04-23,Sports,Bat,15879,9871,4,Corporate,West
+480,2024-04-24,Sports,Novel,37251,5882,5,Corporate,South
+481,2024-04-25,Electronics,T-Shirt,35046,7172,6,Home Office,North
+482,2024-04-26,Books,Bat,24786,5892,4,Corporate,South
+483,2024-04-27,Clothing,Sofa,5610,1366,2,Corporate,South
+484,2024-04-28,Sports,Laptop,12587,1174,6,Consumer,South
+485,2024-04-29,Electronics,Laptop,24262,5671,8,Home Office,West
+486,2024-04-30,Home,Laptop,17581,5473,8,Consumer,North
+487,2024-05-01,Electronics,T-Shirt,35447,2637,7,Consumer,South
+488,2024-05-02,Home,Novel,10096,9265,6,Home Office,West
+489,2024-05-03,Books,Bat,38519,5722,2,Home Office,North
+490,2024-05-04,Clothing,Sofa,42503,1428,7,Home Office,East
+491,2024-05-05,Electronics,Sofa,18813,3424,5,Corporate,South
+492,2024-05-06,Sports,T-Shirt,48139,1569,6,Home Office,North
+493,2024-05-07,Books,Laptop,1513,5827,8,Home Office,South
+494,2024-05-08,Electronics,T-Shirt,49878,7985,8,Home Office,East
+495,2024-05-09,Sports,Novel,24205,6143,3,Consumer,North
+496,2024-05-10,Electronics,Novel,2328,8468,7,Consumer,West
+497,2024-05-11,Home,Bat,8409,5405,1,Corporate,North
+498,2024-05-12,Electronics,Bat,38856,5018,1,Consumer,West
+499,2024-05-13,Electronics,Novel,13609,9133,7,Corporate,North
+500,2024-05-14,Electronics,Novel,2523,5624,9,Consumer,West
+501,2024-05-15,Books,Novel,15037,4122,7,Home Office,East
+502,2024-05-16,Electronics,T-Shirt,27161,2307,5,Consumer,East
+503,2024-05-17,Sports,Novel,39159,8638,8,Corporate,East
+504,2024-05-18,Home,Sofa,34348,4474,2,Consumer,North
+505,2024-05-19,Home,Laptop,38304,3287,9,Home Office,East
+506,2024-05-20,Electronics,Novel,15879,3943,6,Corporate,South
+507,2024-05-21,Books,Laptop,28266,2055,9,Home Office,East
+508,2024-05-22,Books,T-Shirt,44090,2066,2,Home Office,West
+509,2024-05-23,Sports,Laptop,3063,9438,3,Corporate,West
+510,2024-05-24,Electronics,T-Shirt,36560,1822,8,Home Office,West
+511,2024-05-25,Home,Sofa,29697,8403,1,Home Office,North
+512,2024-05-26,Books,T-Shirt,4086,4026,7,Consumer,South
+513,2024-05-27,Electronics,T-Shirt,16587,1801,7,Home Office,East
+514,2024-05-28,Books,Bat,49368,9017,1,Home Office,South
+515,2024-05-29,Books,Novel,23725,7480,9,Home Office,South
+516,2024-05-30,Home,Novel,30250,7220,8,Home Office,West
+517,2024-05-31,Clothing,Sofa,7143,6519,4,Corporate,West
+518,2024-06-01,Sports,Sofa,28023,9181,5,Consumer,West
+519,2024-06-02,Sports,Novel,37227,3270,2,Home Office,North
+520,2024-06-03,Home,Bat,11505,589,9,Home Office,South
+521,2024-06-04,Books,Novel,44043,1511,6,Corporate,South
+522,2024-06-05,Electronics,Bat,661,5234,3,Home Office,North
+523,2024-06-06,Books,Sofa,16529,8597,7,Corporate,North
+524,2024-06-07,Home,Laptop,14726,284,9,Consumer,North
+525,2024-06-08,Sports,Sofa,29231,1598,3,Consumer,South
+526,2024-06-09,Books,Sofa,44422,7530,2,Home Office,South
+527,2024-06-10,Sports,T-Shirt,45348,4263,7,Home Office,West
+528,2024-06-11,Electronics,T-Shirt,3890,1723,7,Home Office,West
+529,2024-06-12,Sports,T-Shirt,6497,6758,4,Corporate,South
+530,2024-06-13,Sports,T-Shirt,13193,8032,9,Home Office,West
+531,2024-06-14,Clothing,Bat,42592,2150,8,Home Office,North
+532,2024-06-15,Clothing,Novel,1041,3798,1,Consumer,East
+533,2024-06-16,Clothing,Laptop,22317,3223,1,Home Office,West
+534,2024-06-17,Sports,Sofa,38361,1865,5,Consumer,South
+535,2024-06-18,Home,Bat,13928,3891,6,Home Office,West
+536,2024-06-19,Sports,Laptop,44434,8066,3,Consumer,West
+537,2024-06-20,Home,Bat,49331,7061,9,Home Office,West
+538,2024-06-21,Home,Bat,10758,4543,6,Consumer,East
+539,2024-06-22,Clothing,Sofa,16544,724,4,Corporate,North
+540,2024-06-23,Books,Novel,29911,8138,7,Consumer,South
+541,2024-06-24,Electronics,T-Shirt,5969,8628,8,Consumer,East
+542,2024-06-25,Clothing,Novel,29354,2208,9,Consumer,South
+543,2024-06-26,Clothing,Sofa,6756,2711,6,Home Office,South
+544,2024-06-27,Books,Sofa,11220,2114,6,Home Office,South
+545,2024-06-28,Electronics,Sofa,34437,3303,8,Home Office,East
+546,2024-06-29,Sports,Laptop,34098,5029,5,Corporate,North
+547,2024-06-30,Sports,Novel,2151,7753,3,Corporate,South
+548,2024-07-01,Clothing,Novel,19694,8981,3,Consumer,North
+549,2024-07-02,Electronics,Bat,25551,1451,6,Corporate,North
+550,2024-07-03,Clothing,Bat,27886,3309,2,Consumer,West
+551,2024-07-04,Home,Bat,10018,3973,6,Consumer,East
+552,2024-07-05,Clothing,Sofa,46526,4264,6,Consumer,East
+553,2024-07-06,Clothing,Novel,16684,3277,8,Corporate,West
+554,2024-07-07,Sports,Sofa,34287,2795,7,Home Office,West
+555,2024-07-08,Sports,Laptop,22121,6141,8,Corporate,North
+556,2024-07-09,Sports,Bat,10528,3916,9,Consumer,South
+557,2024-07-10,Home,Sofa,12948,5868,6,Consumer,East
+558,2024-07-11,Sports,Sofa,45753,2272,3,Corporate,South
+559,2024-07-12,Electronics,Laptop,34551,2842,3,Consumer,South
+560,2024-07-13,Books,T-Shirt,30947,9939,1,Consumer,West
+561,2024-07-14,Electronics,Novel,18894,4113,5,Corporate,South
+562,2024-07-15,Electronics,T-Shirt,35001,1574,4,Corporate,North
+563,2024-07-16,Sports,Bat,30754,8274,9,Corporate,West
+564,2024-07-17,Books,Sofa,19009,6248,9,Consumer,South
+565,2024-07-18,Books,Laptop,49498,4075,5,Consumer,West
+566,2024-07-19,Books,Laptop,14972,2616,4,Home Office,North
+567,2024-07-20,Home,Novel,46157,2853,7,Home Office,North
+568,2024-07-21,Sports,T-Shirt,3971,3759,6,Corporate,South
+569,2024-07-22,Books,Novel,42296,6205,4,Home Office,West
+570,2024-07-23,Home,Sofa,30768,769,2,Consumer,South
+571,2024-07-24,Clothing,Novel,8829,6566,1,Home Office,South
+572,2024-07-25,Clothing,Laptop,35365,4629,4,Consumer,West
+573,2024-07-26,Home,Laptop,47350,1022,4,Corporate,South
+574,2024-07-27,Home,Bat,47198,3768,1,Corporate,North
+575,2024-07-28,Sports,Bat,28772,7445,6,Consumer,West
+576,2024-07-29,Sports,Sofa,43345,4452,4,Home Office,West
+577,2024-07-30,Clothing,T-Shirt,6897,4602,1,Corporate,West
+578,2024-07-31,Books,Novel,32873,2257,1,Corporate,West
+579,2024-08-01,Clothing,Sofa,36025,4476,1,Home Office,South
+580,2024-08-02,Books,Bat,25070,6969,8,Home Office,South
+581,2024-08-03,Books,Novel,18784,8885,8,Consumer,North
+582,2024-08-04,Sports,Bat,19494,8436,2,Home Office,East
+583,2024-08-05,Electronics,Novel,23784,8730,7,Home Office,East
+584,2024-08-06,Electronics,T-Shirt,18333,2254,8,Home Office,North
+585,2024-08-07,Home,Sofa,25622,5395,8,Consumer,East
+586,2024-08-08,Sports,Novel,5517,3326,7,Consumer,North
+587,2024-08-09,Books,Laptop,16870,1152,5,Corporate,South
+588,2024-08-10,Electronics,Laptop,29752,5293,1,Consumer,West
+589,2024-08-11,Books,Novel,8499,6664,9,Corporate,West
+590,2024-08-12,Electronics,Novel,22936,9483,7,Home Office,South
+591,2024-08-13,Electronics,Novel,43463,8757,2,Corporate,West
+592,2024-08-14,Electronics,Laptop,2596,5273,6,Corporate,West
+593,2024-08-15,Sports,Laptop,48701,8634,2,Home Office,East
+594,2024-08-16,Clothing,Novel,25779,680,1,Corporate,South
+595,2024-08-17,Books,Bat,43863,9221,7,Consumer,East
+596,2024-08-18,Sports,Bat,49209,6733,2,Consumer,East
+597,2024-08-19,Sports,T-Shirt,26701,327,2,Consumer,West
+598,2024-08-20,Sports,Sofa,20215,282,5,Consumer,West
+599,2024-08-21,Sports,Bat,29809,9794,5,Corporate,South
+600,2024-08-22,Sports,Laptop,15578,5740,7,Corporate,West
+601,2024-08-23,Home,Bat,5605,7709,1,Home Office,West
+602,2024-08-24,Books,T-Shirt,29812,75,8,Corporate,South
+603,2024-08-25,Sports,T-Shirt,3339,7518,3,Corporate,West
+604,2024-08-26,Books,Sofa,3884,6460,4,Corporate,East
+605,2024-08-27,Home,Bat,44119,8702,9,Home Office,South
+606,2024-08-28,Home,Laptop,43321,3814,4,Consumer,West
+607,2024-08-29,Books,Laptop,13993,6649,5,Corporate,North
+608,2024-08-30,Electronics,Novel,17569,5152,7,Home Office,South
+609,2024-08-31,Clothing,Laptop,47407,7056,4,Home Office,South
+610,2024-09-01,Electronics,Sofa,8031,3533,1,Home Office,North
+611,2024-09-02,Electronics,Sofa,37551,2044,9,Consumer,West
+612,2024-09-03,Electronics,Laptop,8236,8732,4,Corporate,West
+613,2024-09-04,Sports,Laptop,8210,1122,9,Home Office,South
+614,2024-09-05,Home,Novel,2119,6757,6,Consumer,South
+615,2024-09-06,Electronics,Laptop,14475,265,1,Home Office,West
+616,2024-09-07,Home,Novel,46103,7655,3,Home Office,West
+617,2024-09-08,Books,Novel,23752,9965,2,Home Office,East
+618,2024-09-09,Clothing,Laptop,15761,9834,9,Home Office,South
+619,2024-09-10,Books,T-Shirt,1931,2656,1,Home Office,South
+620,2024-09-11,Books,T-Shirt,9567,8400,9,Consumer,North
+621,2024-09-12,Sports,Novel,37981,4831,9,Corporate,East
+622,2024-09-13,Clothing,Laptop,27537,3363,8,Corporate,West
+623,2024-09-14,Books,T-Shirt,10057,7813,8,Corporate,East
+624,2024-09-15,Books,Laptop,9935,5989,1,Corporate,West
+625,2024-09-16,Clothing,Laptop,38266,2345,8,Consumer,West
+626,2024-09-17,Clothing,Laptop,662,5735,3,Consumer,East
+627,2024-09-18,Books,Bat,35242,1746,7,Consumer,South
+628,2024-09-19,Clothing,Laptop,20175,1996,1,Home Office,West
+629,2024-09-20,Books,Bat,8961,2833,1,Home Office,East
+630,2024-09-21,Books,Novel,17515,3694,5,Home Office,North
+631,2024-09-22,Sports,T-Shirt,33091,5291,5,Corporate,East
+632,2024-09-23,Electronics,T-Shirt,28547,6470,8,Home Office,North
+633,2024-09-24,Books,T-Shirt,35282,7607,7,Corporate,West
+634,2024-09-25,Home,T-Shirt,10333,2695,8,Home Office,East
+635,2024-09-26,Electronics,T-Shirt,8396,6639,6,Corporate,East
+636,2024-09-27,Electronics,T-Shirt,33472,6403,6,Home Office,North
+637,2024-09-28,Electronics,T-Shirt,42300,1982,2,Home Office,East
+638,2024-09-29,Sports,Novel,31008,1807,6,Consumer,East
+639,2024-09-30,Books,Laptop,5847,5135,5,Home Office,West
+640,2024-10-01,Sports,Sofa,30814,5687,3,Home Office,East
+641,2024-10-02,Books,Bat,3143,1166,6,Consumer,South
+642,2024-10-03,Sports,Sofa,41285,542,8,Corporate,North
+643,2024-10-04,Sports,Sofa,19181,8861,9,Consumer,East
+644,2024-10-05,Home,Laptop,38828,7938,1,Consumer,North
+645,2024-10-06,Sports,Laptop,16392,6524,3,Corporate,North
+646,2024-10-07,Clothing,Laptop,47799,9788,3,Home Office,North
+647,2024-10-08,Home,T-Shirt,17573,5008,8,Corporate,East
+648,2024-10-09,Sports,Novel,37268,9847,1,Home Office,East
+649,2024-10-10,Electronics,T-Shirt,31182,9517,5,Home Office,North
+650,2024-10-11,Clothing,Novel,32762,2793,3,Corporate,South
+651,2024-10-12,Clothing,Novel,31858,7916,2,Consumer,North
+652,2024-10-13,Clothing,Sofa,14789,7210,8,Corporate,South
+653,2024-10-14,Home,Sofa,8427,5501,3,Home Office,North
+654,2024-10-15,Sports,Novel,48830,5308,7,Corporate,West
+655,2024-10-16,Sports,Novel,1671,8598,1,Corporate,North
+656,2024-10-17,Electronics,T-Shirt,12418,7236,6,Home Office,North
+657,2024-10-18,Electronics,T-Shirt,42403,6152,3,Consumer,East
+658,2024-10-19,Clothing,Sofa,39610,9111,8,Corporate,South
+659,2024-10-20,Electronics,Laptop,12429,9127,6,Home Office,West
+660,2024-10-21,Home,Novel,3039,9525,2,Home Office,South
+661,2024-10-22,Sports,T-Shirt,37227,669,6,Corporate,West
+662,2024-10-23,Clothing,Sofa,46451,932,7,Consumer,North
+663,2024-10-24,Electronics,T-Shirt,23169,9038,5,Corporate,East
+664,2024-10-25,Home,Novel,5932,3692,3,Consumer,East
+665,2024-10-26,Home,Novel,21144,1346,4,Consumer,South
+666,2024-10-27,Electronics,Bat,19245,8486,4,Consumer,East
+667,2024-10-28,Sports,Laptop,28728,2945,6,Consumer,South
+668,2024-10-29,Electronics,Bat,35021,6643,1,Corporate,South
+669,2024-10-30,Clothing,Sofa,32203,979,4,Home Office,West
+670,2024-10-31,Electronics,T-Shirt,27428,5416,4,Home Office,South
+671,2024-11-01,Home,Sofa,18822,8761,1,Home Office,West
+672,2024-11-02,Electronics,Novel,22860,3262,9,Home Office,East
+673,2024-11-03,Sports,Bat,29555,2459,4,Home Office,South
+674,2024-11-04,Books,Bat,43391,8249,7,Home Office,South
+675,2024-11-05,Electronics,Bat,16876,3473,3,Corporate,North
+676,2024-11-06,Sports,Sofa,7088,7026,3,Consumer,South
+677,2024-11-07,Sports,Novel,25500,7644,8,Home Office,South
+678,2024-11-08,Home,T-Shirt,6804,5208,8,Corporate,North
+679,2024-11-09,Sports,T-Shirt,7845,3717,1,Home Office,North
+680,2024-11-10,Sports,Sofa,29800,6023,2,Home Office,East
+681,2024-11-11,Sports,Bat,24759,6286,8,Consumer,South
+682,2024-11-12,Sports,Laptop,25970,8327,1,Consumer,East
+683,2024-11-13,Clothing,Sofa,23517,2518,8,Consumer,East
+684,2024-11-14,Clothing,Sofa,15852,6267,8,Home Office,North
+685,2024-11-15,Home,Novel,33865,3669,2,Home Office,West
+686,2024-11-16,Electronics,T-Shirt,19946,1686,4,Home Office,East
+687,2024-11-17,Sports,Sofa,2836,8205,6,Consumer,West
+688,2024-11-18,Electronics,Sofa,10379,3633,9,Corporate,South
+689,2024-11-19,Electronics,Bat,32816,4059,8,Home Office,North
+690,2024-11-20,Home,Bat,33840,3376,8,Home Office,South
+691,2024-11-21,Sports,Laptop,8021,8198,7,Home Office,South
+692,2024-11-22,Sports,Novel,6671,2267,9,Corporate,North
+693,2024-11-23,Books,Laptop,23981,5017,2,Home Office,South
+694,2024-11-24,Electronics,Bat,18974,2419,3,Corporate,North
+695,2024-11-25,Electronics,T-Shirt,47260,3688,8,Home Office,West
+696,2024-11-26,Clothing,Bat,45129,9185,6,Corporate,South
+697,2024-11-27,Books,Novel,45732,5772,9,Home Office,North
+698,2024-11-28,Clothing,Bat,21508,4494,4,Consumer,East
+699,2024-11-29,Clothing,Novel,2133,7668,8,Consumer,South
+700,2024-11-30,Clothing,Novel,12985,3997,3,Consumer,West
+701,2024-12-01,Home,Novel,44117,1726,3,Consumer,North
+702,2024-12-02,Home,Novel,4148,1246,8,Home Office,South
+703,2024-12-03,Clothing,Novel,48445,2837,5,Consumer,South
+704,2024-12-04,Books,T-Shirt,13640,7482,3,Corporate,South
+705,2024-12-05,Electronics,Laptop,18421,9703,1,Consumer,West
+706,2024-12-06,Books,Sofa,14857,7977,3,Consumer,North
+707,2024-12-07,Sports,Laptop,46636,3368,9,Consumer,East
+708,2024-12-08,Home,Novel,3637,8908,5,Home Office,East
+709,2024-12-09,Electronics,T-Shirt,597,6739,2,Consumer,East
+710,2024-12-10,Electronics,Bat,11907,2226,7,Corporate,North
+711,2024-12-11,Sports,T-Shirt,31075,3793,2,Consumer,East
+712,2024-12-12,Sports,Novel,13222,8842,4,Consumer,West
+713,2024-12-13,Clothing,T-Shirt,13424,4472,7,Consumer,North
+714,2024-12-14,Home,T-Shirt,4250,3874,4,Corporate,South
+715,2024-12-15,Home,Novel,28233,9221,7,Consumer,West
+716,2024-12-16,Books,T-Shirt,9035,2501,7,Corporate,South
+717,2024-12-17,Clothing,Sofa,24987,678,1,Corporate,East
+718,2024-12-18,Clothing,Sofa,31151,9871,6,Consumer,West
+719,2024-12-19,Clothing,T-Shirt,5166,7828,9,Corporate,North
+720,2024-12-20,Clothing,Bat,49277,3746,2,Home Office,West
+721,2024-12-21,Home,Novel,17494,3724,3,Consumer,South
+722,2024-12-22,Home,Sofa,2227,3979,5,Consumer,North
+723,2024-12-23,Clothing,Bat,35122,2815,9,Corporate,West
+724,2024-12-24,Books,T-Shirt,11300,4419,4,Corporate,West
+725,2024-12-25,Electronics,Bat,38323,8357,1,Consumer,West
+726,2024-12-26,Electronics,Laptop,43539,5006,4,Home Office,West
+727,2024-12-27,Books,Sofa,19208,742,6,Corporate,North
+728,2024-12-28,Clothing,T-Shirt,13319,3212,5,Corporate,South
+729,2024-12-29,Home,Novel,9869,1155,1,Home Office,West
+730,2024-12-30,Electronics,T-Shirt,9783,3058,4,Home Office,North
+731,2024-12-31,Sports,Novel,31073,2211,6,Consumer,South
+732,2025-01-01,Sports,T-Shirt,13671,8395,4,Home Office,West
+733,2025-01-02,Books,Bat,31433,3749,9,Consumer,South
+734,2025-01-03,Clothing,Bat,6274,3836,5,Home Office,South
+735,2025-01-04,Electronics,Bat,7019,9306,8,Corporate,North
+736,2025-01-05,Clothing,Laptop,11483,4250,9,Consumer,South
+737,2025-01-06,Electronics,Novel,31432,1963,5,Consumer,North
+738,2025-01-07,Books,Bat,31298,9458,6,Consumer,West
+739,2025-01-08,Books,Laptop,18633,5570,1,Home Office,South
+740,2025-01-09,Sports,Novel,15439,1822,7,Corporate,South
+741,2025-01-10,Clothing,T-Shirt,1281,2830,4,Consumer,East
+742,2025-01-11,Sports,Laptop,49550,7473,2,Consumer,West
+743,2025-01-12,Clothing,Sofa,28124,2921,5,Consumer,West
+744,2025-01-13,Sports,Laptop,7323,710,3,Consumer,East
+745,2025-01-14,Home,Laptop,18989,6292,6,Corporate,East
+746,2025-01-15,Home,Novel,40461,1182,8,Home Office,North
+747,2025-01-16,Home,T-Shirt,29618,749,7,Corporate,North
+748,2025-01-17,Home,Sofa,35381,7520,3,Consumer,South
+749,2025-01-18,Electronics,Bat,16780,6347,8,Corporate,South
+750,2025-01-19,Home,Bat,22763,7862,2,Consumer,South
+751,2025-01-20,Books,Laptop,14065,4607,9,Home Office,South
+752,2025-01-21,Books,Novel,20854,2229,4,Home Office,North
+753,2025-01-22,Electronics,Novel,43451,9115,1,Home Office,West
+754,2025-01-23,Home,Bat,26143,8325,8,Consumer,South
+755,2025-01-24,Home,Sofa,24148,1472,7,Corporate,West
+756,2025-01-25,Home,T-Shirt,42471,3230,5,Home Office,South
+757,2025-01-26,Sports,Sofa,19158,4366,5,Consumer,East
+758,2025-01-27,Clothing,T-Shirt,21753,6746,7,Consumer,South
+759,2025-01-28,Sports,Bat,49063,9633,5,Corporate,South
+760,2025-01-29,Clothing,T-Shirt,26890,664,8,Home Office,South
+761,2025-01-30,Home,Novel,23628,4620,6,Consumer,North
+762,2025-01-31,Home,Laptop,13989,320,5,Corporate,East
+763,2025-02-01,Sports,Laptop,38814,2518,9,Home Office,South
+764,2025-02-02,Sports,Bat,33158,9632,2,Corporate,South
+765,2025-02-03,Clothing,Novel,7352,3657,1,Corporate,West
+766,2025-02-04,Books,Sofa,29950,3125,8,Consumer,East
+767,2025-02-05,Clothing,Novel,3051,339,3,Consumer,South
+768,2025-02-06,Sports,Laptop,6911,8170,7,Consumer,West
+769,2025-02-07,Sports,Laptop,49659,6664,8,Corporate,West
+770,2025-02-08,Electronics,Novel,33743,3302,6,Consumer,North
+771,2025-02-09,Sports,Novel,22300,7465,9,Corporate,West
+772,2025-02-10,Electronics,Laptop,10903,6821,7,Corporate,South
+773,2025-02-11,Books,Sofa,7739,328,5,Consumer,North
+774,2025-02-12,Clothing,Bat,7210,630,8,Home Office,North
+775,2025-02-13,Clothing,Bat,21884,5008,2,Home Office,South
+776,2025-02-14,Electronics,Novel,21538,8495,7,Home Office,East
+777,2025-02-15,Clothing,Bat,41346,4326,4,Corporate,West
+778,2025-02-16,Sports,Laptop,22947,8047,9,Corporate,North
+779,2025-02-17,Home,Laptop,2785,4826,1,Corporate,East
+780,2025-02-18,Electronics,Novel,38491,874,7,Consumer,South
+781,2025-02-19,Clothing,Novel,14021,3882,6,Corporate,West
+782,2025-02-20,Electronics,Novel,48157,8941,8,Consumer,West
+783,2025-02-21,Electronics,Sofa,7471,5495,5,Consumer,North
+784,2025-02-22,Home,Bat,29639,1430,1,Home Office,West
+785,2025-02-23,Sports,Novel,20409,9915,1,Home Office,West
+786,2025-02-24,Electronics,T-Shirt,12031,6584,9,Home Office,West
+787,2025-02-25,Clothing,T-Shirt,15221,3206,6,Consumer,West
+788,2025-02-26,Books,Laptop,19706,4357,5,Consumer,South
+789,2025-02-27,Electronics,Bat,38211,5684,1,Consumer,East
+790,2025-02-28,Electronics,Novel,7030,8625,6,Corporate,South
+791,2025-03-01,Home,T-Shirt,11616,5860,6,Consumer,South
+792,2025-03-02,Sports,Bat,758,8583,3,Home Office,North
+793,2025-03-03,Books,Laptop,782,5984,8,Home Office,West
+794,2025-03-04,Clothing,Sofa,14437,3159,1,Consumer,South
+795,2025-03-05,Books,Bat,2398,4132,1,Consumer,West
+796,2025-03-06,Clothing,Bat,4635,3290,6,Home Office,South
+797,2025-03-07,Sports,Sofa,7129,6078,1,Consumer,South
+798,2025-03-08,Clothing,Bat,44436,1899,6,Home Office,North
+799,2025-03-09,Home,Laptop,20084,8547,1,Corporate,East
+800,2025-03-10,Home,Laptop,24051,2799,6,Home Office,East
+801,2025-03-11,Home,Sofa,33880,6730,3,Corporate,South
+802,2025-03-12,Home,Novel,47471,9377,8,Consumer,North
+803,2025-03-13,Books,T-Shirt,17571,255,6,Consumer,West
+804,2025-03-14,Sports,Novel,20574,7402,1,Corporate,West
+805,2025-03-15,Clothing,Bat,25688,4641,5,Consumer,South
+806,2025-03-16,Clothing,T-Shirt,2807,3500,8,Corporate,East
+807,2025-03-17,Home,Sofa,40401,7264,3,Consumer,North
+808,2025-03-18,Home,Sofa,11705,3861,6,Home Office,East
+809,2025-03-19,Electronics,T-Shirt,6406,5191,5,Consumer,West
+810,2025-03-20,Sports,Laptop,3091,8551,6,Home Office,East
+811,2025-03-21,Books,T-Shirt,15649,2758,1,Home Office,West
+812,2025-03-22,Clothing,Bat,45418,2041,7,Corporate,North
+813,2025-03-23,Electronics,Laptop,40451,8513,9,Consumer,North
+814,2025-03-24,Electronics,Sofa,25650,3323,2,Corporate,South
+815,2025-03-25,Clothing,T-Shirt,32352,4588,5,Consumer,South
+816,2025-03-26,Books,Novel,43370,8762,4,Home Office,East
+817,2025-03-27,Electronics,Novel,1783,9218,6,Home Office,North
+818,2025-03-28,Electronics,Bat,34191,3772,6,Consumer,North
+819,2025-03-29,Sports,Novel,1625,3601,2,Consumer,South
+820,2025-03-30,Books,T-Shirt,2029,2882,2,Corporate,West
+821,2025-03-31,Electronics,T-Shirt,26670,5729,4,Consumer,East
+822,2025-04-01,Books,Novel,8938,6629,1,Consumer,East
+823,2025-04-02,Clothing,T-Shirt,20595,202,9,Consumer,South
+824,2025-04-03,Home,Bat,16654,5804,7,Corporate,North
+825,2025-04-04,Electronics,Laptop,8504,2850,7,Consumer,South
+826,2025-04-05,Sports,Bat,10252,5360,3,Home Office,South
+827,2025-04-06,Clothing,Bat,43860,9994,3,Corporate,South
+828,2025-04-07,Books,T-Shirt,27319,2660,1,Corporate,South
+829,2025-04-08,Clothing,Laptop,37132,1154,3,Home Office,West
+830,2025-04-09,Electronics,T-Shirt,27015,7411,3,Home Office,West
+831,2025-04-10,Books,Sofa,24717,4249,4,Home Office,North
+832,2025-04-11,Home,T-Shirt,23672,3904,4,Consumer,South
+833,2025-04-12,Clothing,T-Shirt,33494,7313,3,Home Office,West
+834,2025-04-13,Electronics,T-Shirt,15536,1964,8,Consumer,North
+835,2025-04-14,Sports,Laptop,12239,7415,8,Corporate,South
+836,2025-04-15,Books,T-Shirt,32720,3122,1,Corporate,East
+837,2025-04-16,Clothing,Laptop,49916,9248,7,Home Office,West
+838,2025-04-17,Clothing,Novel,10087,456,2,Consumer,North
+839,2025-04-18,Home,Sofa,45017,216,1,Home Office,East
+840,2025-04-19,Home,Laptop,30629,558,3,Home Office,South
+841,2025-04-20,Sports,Novel,1145,1711,4,Consumer,South
+842,2025-04-21,Sports,Laptop,31430,3714,6,Home Office,South
+843,2025-04-22,Electronics,Laptop,16799,3539,5,Corporate,West
+844,2025-04-23,Electronics,Sofa,30590,730,4,Home Office,North
+845,2025-04-24,Sports,Bat,22453,2574,8,Consumer,East
+846,2025-04-25,Sports,Bat,46943,2170,4,Consumer,North
+847,2025-04-26,Books,Laptop,26975,5310,2,Corporate,West
+848,2025-04-27,Home,T-Shirt,19388,4407,3,Consumer,North
+849,2025-04-28,Electronics,Novel,44232,1413,6,Consumer,West
+850,2025-04-29,Home,T-Shirt,16587,9573,8,Corporate,South
+851,2025-04-30,Home,T-Shirt,46805,2342,8,Home Office,East
+852,2025-05-01,Sports,Laptop,46537,1588,9,Corporate,South
+853,2025-05-02,Books,Laptop,9846,3458,7,Home Office,North
+854,2025-05-03,Clothing,Laptop,1087,7792,2,Corporate,South
+855,2025-05-04,Books,Laptop,13263,8802,8,Home Office,East
+856,2025-05-05,Books,Bat,42445,9341,7,Corporate,South
+857,2025-05-06,Home,Laptop,4579,1953,8,Home Office,East
+858,2025-05-07,Books,Bat,36616,224,3,Corporate,East
+859,2025-05-08,Electronics,Bat,20715,2280,7,Home Office,South
+860,2025-05-09,Home,Laptop,26317,4337,9,Corporate,West
+861,2025-05-10,Electronics,Sofa,25265,4210,3,Consumer,North
+862,2025-05-11,Clothing,Novel,30612,7156,6,Home Office,West
+863,2025-05-12,Home,T-Shirt,26056,9739,2,Corporate,West
+864,2025-05-13,Clothing,Bat,18599,3221,2,Home Office,South
+865,2025-05-14,Home,Novel,44053,1617,5,Home Office,North
+866,2025-05-15,Sports,Sofa,45596,1201,5,Corporate,North
+867,2025-05-16,Books,T-Shirt,6950,7669,7,Home Office,West
+868,2025-05-17,Sports,T-Shirt,13730,6083,2,Corporate,South
+869,2025-05-18,Clothing,Bat,29509,8610,7,Consumer,North
+870,2025-05-19,Books,Laptop,5933,4996,5,Home Office,West
+871,2025-05-20,Home,Sofa,34366,8284,6,Consumer,North
+872,2025-05-21,Books,Bat,40364,1957,8,Home Office,South
+873,2025-05-22,Electronics,Sofa,19210,3540,4,Home Office,South
+874,2025-05-23,Books,Laptop,11939,2585,7,Home Office,South
+875,2025-05-24,Electronics,Laptop,42355,4223,6,Corporate,North
+876,2025-05-25,Books,Bat,16521,1343,2,Consumer,East
+877,2025-05-26,Electronics,Laptop,6916,4819,8,Home Office,North
+878,2025-05-27,Clothing,Novel,7480,4846,9,Corporate,East
+879,2025-05-28,Sports,T-Shirt,18558,6921,5,Home Office,South
+880,2025-05-29,Home,Bat,11601,3022,4,Corporate,West
+881,2025-05-30,Books,Sofa,41218,3972,6,Home Office,East
+882,2025-05-31,Sports,Novel,33102,5047,8,Consumer,South
+883,2025-06-01,Home,Bat,9622,7082,3,Consumer,South
+884,2025-06-02,Home,Laptop,13076,1042,1,Home Office,East
+885,2025-06-03,Electronics,Laptop,28016,8162,4,Corporate,West
+886,2025-06-04,Clothing,Laptop,22933,5337,4,Home Office,South
+887,2025-06-05,Clothing,Laptop,1589,2290,1,Corporate,East
+888,2025-06-06,Sports,Sofa,37846,1526,9,Home Office,West
+889,2025-06-07,Clothing,Novel,9627,6476,3,Corporate,West
+890,2025-06-08,Books,T-Shirt,10987,439,5,Consumer,South
+891,2025-06-09,Clothing,Sofa,655,1049,6,Home Office,North
+892,2025-06-10,Sports,Sofa,2458,1905,8,Consumer,North
+893,2025-06-11,Clothing,T-Shirt,11193,8175,6,Consumer,South
+894,2025-06-12,Books,T-Shirt,39612,8900,3,Home Office,West
+895,2025-06-13,Electronics,Laptop,39047,2813,6,Home Office,South
+896,2025-06-14,Sports,Sofa,29295,3713,1,Corporate,East
+897,2025-06-15,Electronics,Bat,21947,5036,4,Corporate,North
+898,2025-06-16,Electronics,T-Shirt,37098,1531,6,Consumer,East
+899,2025-06-17,Electronics,T-Shirt,42314,7306,7,Corporate,South
+900,2025-06-18,Home,Novel,25715,3781,3,Corporate,South
+901,2025-06-19,Home,Bat,10294,7312,9,Home Office,West
+902,2025-06-20,Electronics,Bat,33709,501,7,Corporate,West
+903,2025-06-21,Sports,T-Shirt,22924,9779,1,Consumer,West
+904,2025-06-22,Books,Laptop,47746,3143,2,Corporate,East
+905,2025-06-23,Books,Novel,37896,932,1,Consumer,West
+906,2025-06-24,Clothing,Bat,6870,4458,9,Home Office,South
+907,2025-06-25,Sports,T-Shirt,10028,4118,9,Consumer,West
+908,2025-06-26,Home,Bat,28776,3327,7,Corporate,North
+909,2025-06-27,Electronics,Novel,44833,8616,3,Home Office,West
+910,2025-06-28,Clothing,Novel,8679,8001,5,Corporate,East
+911,2025-06-29,Books,Sofa,49281,4740,4,Home Office,North
+912,2025-06-30,Home,T-Shirt,17343,4645,7,Home Office,North
+913,2025-07-01,Home,Novel,24452,4609,9,Corporate,North
+914,2025-07-02,Electronics,Sofa,33660,7341,2,Corporate,East
+915,2025-07-03,Books,Sofa,45398,8210,8,Home Office,South
+916,2025-07-04,Sports,Bat,30016,162,9,Home Office,West
+917,2025-07-05,Home,Bat,10949,5181,9,Corporate,North
+918,2025-07-06,Electronics,Sofa,21625,3247,7,Consumer,North
+919,2025-07-07,Sports,Bat,7918,189,9,Corporate,North
+920,2025-07-08,Books,Novel,23246,1474,9,Home Office,South
+921,2025-07-09,Home,Laptop,2954,2999,3,Corporate,South
+922,2025-07-10,Sports,Novel,18261,3218,4,Consumer,East
+923,2025-07-11,Sports,Sofa,15723,8758,2,Corporate,South
+924,2025-07-12,Sports,Sofa,7201,6093,3,Home Office,West
+925,2025-07-13,Home,Novel,3097,7039,5,Corporate,East
+926,2025-07-14,Home,Bat,641,7286,5,Home Office,East
+927,2025-07-15,Clothing,Bat,3159,6311,6,Home Office,West
+928,2025-07-16,Books,Sofa,21480,937,7,Corporate,West
+929,2025-07-17,Electronics,T-Shirt,9531,3154,7,Home Office,West
+930,2025-07-18,Sports,Bat,15537,99,1,Home Office,East
+931,2025-07-19,Clothing,Novel,47238,4001,2,Consumer,East
+932,2025-07-20,Electronics,Bat,38929,3610,9,Consumer,East
+933,2025-07-21,Clothing,Novel,6642,68,2,Consumer,West
+934,2025-07-22,Home,Sofa,12609,4871,6,Consumer,West
+935,2025-07-23,Sports,Bat,22510,6390,1,Home Office,North
+936,2025-07-24,Electronics,Novel,9287,8108,3,Corporate,South
+937,2025-07-25,Electronics,Sofa,43364,9715,2,Home Office,North
+938,2025-07-26,Electronics,T-Shirt,8972,2656,3,Home Office,West
+939,2025-07-27,Electronics,Novel,23883,7896,5,Home Office,East
+940,2025-07-28,Electronics,T-Shirt,4749,8693,6,Corporate,West
+941,2025-07-29,Clothing,T-Shirt,48217,6482,9,Consumer,South
+942,2025-07-30,Sports,Laptop,35018,3815,4,Home Office,North
+943,2025-07-31,Home,Bat,18851,2488,7,Home Office,North
+944,2025-08-01,Home,Novel,4588,9791,6,Consumer,East
+945,2025-08-02,Home,T-Shirt,15782,6408,2,Home Office,North
+946,2025-08-03,Home,Laptop,19830,8369,8,Corporate,North
+947,2025-08-04,Clothing,Sofa,42909,5991,7,Home Office,West
+948,2025-08-05,Books,Novel,22278,7694,7,Home Office,North
+949,2025-08-06,Sports,T-Shirt,24764,4905,8,Consumer,North
+950,2025-08-07,Electronics,Bat,5575,6597,1,Home Office,North
+951,2025-08-08,Books,Laptop,10912,7246,1,Home Office,East
+952,2025-08-09,Home,T-Shirt,48954,5961,8,Corporate,East
+953,2025-08-10,Books,Bat,28865,6531,4,Consumer,West
+954,2025-08-11,Sports,T-Shirt,7730,2811,5,Consumer,North
+955,2025-08-12,Electronics,Novel,48700,4506,8,Corporate,East
+956,2025-08-13,Electronics,Novel,11502,9657,5,Home Office,East
+957,2025-08-14,Sports,Novel,14447,6411,4,Consumer,West
+958,2025-08-15,Sports,Laptop,14186,5743,6,Consumer,South
+959,2025-08-16,Home,Novel,29804,5838,5,Home Office,North
+960,2025-08-17,Electronics,Bat,13574,251,7,Home Office,East
+961,2025-08-18,Books,T-Shirt,4993,6210,7,Consumer,West
+962,2025-08-19,Clothing,Sofa,34728,567,4,Home Office,West
+963,2025-08-20,Clothing,Bat,14640,7787,5,Consumer,West
+964,2025-08-21,Sports,Bat,32155,9583,3,Home Office,East
+965,2025-08-22,Home,Novel,43972,2038,4,Home Office,North
+966,2025-08-23,Clothing,Laptop,49937,3852,4,Corporate,South
+967,2025-08-24,Electronics,T-Shirt,49916,5858,3,Home Office,North
+968,2025-08-25,Sports,Laptop,7316,7212,5,Corporate,West
+969,2025-08-26,Books,T-Shirt,12139,6291,5,Home Office,West
+970,2025-08-27,Sports,T-Shirt,47692,8449,7,Consumer,South
+971,2025-08-28,Books,Laptop,47233,5683,4,Consumer,North
+972,2025-08-29,Sports,Bat,29992,5805,4,Home Office,West
+973,2025-08-30,Sports,T-Shirt,11740,6359,9,Home Office,West
+974,2025-08-31,Sports,Laptop,33198,4167,6,Consumer,North
+975,2025-09-01,Books,T-Shirt,27457,8395,4,Home Office,West
+976,2025-09-02,Books,Sofa,33308,1568,2,Corporate,North
+977,2025-09-03,Sports,Bat,6327,6213,6,Corporate,West
+978,2025-09-04,Clothing,Novel,33262,2650,2,Corporate,North
+979,2025-09-05,Home,T-Shirt,8759,2245,5,Corporate,South
+980,2025-09-06,Home,Sofa,15349,3604,6,Corporate,West
+981,2025-09-07,Home,Novel,16732,2899,4,Home Office,South
+982,2025-09-08,Books,Novel,41072,1792,3,Home Office,West
+983,2025-09-09,Books,T-Shirt,24673,1356,7,Corporate,West
+984,2025-09-10,Clothing,Laptop,5874,3899,2,Home Office,East
+985,2025-09-11,Home,T-Shirt,21674,7569,6,Home Office,North
+986,2025-09-12,Home,Sofa,24067,4245,4,Corporate,South
+987,2025-09-13,Sports,Novel,35792,5228,6,Home Office,South
+988,2025-09-14,Books,T-Shirt,9777,2605,4,Home Office,South
+989,2025-09-15,Home,Laptop,32100,2355,4,Home Office,North
+990,2025-09-16,Clothing,T-Shirt,10385,7669,4,Corporate,East
+991,2025-09-17,Clothing,Bat,1278,9330,9,Home Office,South
+992,2025-09-18,Home,Laptop,29665,2692,7,Consumer,North
+993,2025-09-19,Books,Sofa,1992,9419,3,Consumer,West
+994,2025-09-20,Clothing,Novel,30962,6459,3,Corporate,South
+995,2025-09-21,Sports,T-Shirt,14115,4807,6,Consumer,South
+996,2025-09-22,Clothing,Laptop,45400,3044,6,Corporate,East
+997,2025-09-23,Electronics,Bat,43446,8801,4,Consumer,South
+998,2025-09-24,Electronics,Laptop,8351,1321,9,Consumer,South
+999,2025-09-25,Books,Bat,16788,1863,4,Consumer,West
+1000,2025-09-26,Home,Sofa,7656,8851,9,Corporate,North
