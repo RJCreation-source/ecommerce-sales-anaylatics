@@ -2,61 +2,74 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Sales Analytics", layout="wide")
-st.title("📊 E-Commerce Sales Analytics Dashboard")
+st.set_page_config(page_title="E-Commerce Analytics PRO", layout="wide", page_icon="📊")
+st.title("📊 E-Commerce Sales Analytics - PRO Version")
 
 @st.cache_data
 def get_data():
     df = pd.read_csv('data/sales_x5f_data.csv.xlsx')
     df['Order_Date'] = pd.to_datetime(df['Order_Date'])
+    df['YearMonth'] = df['Order_Date'].dt.strftime('%Y-%m')
     return df
 
 df = get_data()
 
-# --- SIDEBAR FILTERS ---
-st.sidebar.header("Filters")
-category_filter = st.sidebar.multiselect("Category", options=df['Category'].unique(), default=df['Category'].unique())
-region_filter = st.sidebar.multiselect("Region", options=df['Region'].unique(), default=df['Region'].unique())
-segment_filter = st.sidebar.multiselect("Customer Segment", options=df['Customer_Segment'].unique(), default=df['Customer_Segment'].unique())
+# --- SIDEBAR ---
+st.sidebar.header("🔍 Smart Filters")
+search = st.sidebar.text_input("Search Product")
+cat = st.sidebar.multiselect("Category", df['Category'].unique(), default=df['Category'].unique())
+reg = st.sidebar.multiselect("Region", df['Region'].unique(), default=df['Region'].unique())
+seg = st.sidebar.multiselect("Segment", df['Customer_Segment'].unique(), default=df['Customer_Segment'].unique())
 
-filtered_df = df[
-    (df['Category'].isin(category_filter)) & 
-    (df['Region'].isin(region_filter)) & 
-    (df['Customer_Segment'].isin(segment_filter))
-]
+filtered_df = df[(df['Category'].isin(cat)) & (df['Region'].isin(reg)) & (df['Customer_Segment'].isin(seg))]
+if search:
+    filtered_df = filtered_df[filtered_df['Product'].str.contains(search, case=False, na=False)]
 
-# --- TOP METRICS ---
-col1, col2, col3, col4 = st.columns(4)
-col1.metric("Total Sales", f"₹ {filtered_df['Sales'].sum():,}")
-col2.metric("Total Profit", f"₹ {filtered_df['Profit'].sum():,}")
-col3.metric("Total Orders", len(filtered_df))
-col4.metric("Avg Order Value", f"₹ {filtered_df['Sales'].mean():,.0f}")
+# --- KPIs ---
+c1,c2,c3,c4,c5 = st.columns(5)
+c1.metric("Total Sales", f"₹ {filtered_df['Sales'].sum():,}")
+c2.metric("Total Profit", f"₹ {filtered_df['Profit'].sum():,}")
+c3.metric("Orders", len(filtered_df))
+c4.metric("Avg Value", f"₹ {filtered_df['Sales'].mean():,.0f}")
+profit_margin = (filtered_df['Profit'].sum() / filtered_df['Sales'].sum() * 100) if filtered_df['Sales'].sum()!=0 else 0
+c5.metric("Profit Margin", f"{profit_margin:.1f}%")
 
-# --- GRAPHS ---
-col_a, col_b = st.columns(2)
+# --- ROW 1 ---
+col1, col2, col3 = st.columns([2,1,1])
+with col1:
+    fig = px.bar(filtered_df.groupby('Category')['Sales'].sum().reset_index(), x='Category', y='Sales', color='Category', title="Sales by Category")
+    st.plotly_chart(fig, use_container_width=True)
+with col2:
+    fig = px.pie(filtered_df, names='Region', values='Sales', hole=0.4, title="Sales by Region")
+    st.plotly_chart(fig, use_container_width=True)
+with col3:
+    fig = px.pie(filtered_df, names='Customer_Segment', values='Profit', hole=0.4, title="Profit by Segment")
+    st.plotly_chart(fig, use_container_width=True)
 
-with col_a:
-    fig1 = px.bar(filtered_df.groupby('Category')['Sales'].sum().reset_index(), x='Category', y='Sales', color='Category', title="Sales by Category")
-    st.plotly_chart(fig1, use_container_width=True)
+# --- ROW 2 ---
+c1,c2 = st.columns(2)
+with c1:
+    top_products = filtered_df.groupby('Product')['Sales'].sum().nlargest(10).reset_index()
+    fig = px.bar(top_products, x='Sales', y='Product', orientation='h', title="Top 10 Products by Sales", color='Sales')
+    st.plotly_chart(fig, use_container_width=True)
+with c2:
+    monthly = filtered_df.groupby('YearMonth')['Sales'].sum().reset_index()
+    fig = px.line(monthly, x='YearMonth', y='Sales', markers=True, title="Monthly Sales Trend")
+    st.plotly_chart(fig, use_container_width=True)
 
-with col_b:
-    fig2 = px.pie(filtered_df, names='Region', values='Sales', title="Sales by Region")
-    st.plotly_chart(fig2, use_container_width=True)
+# --- AI INSIGHTS ---
+st.subheader("💡 Auto Insights")
+best_cat = filtered_df.groupby('Category')['Profit'].sum().idxmax() if not filtered_df.empty else "N/A"
+loss_orders = len(filtered_df[filtered_df['Profit'] < 0])
+st.info(f"✅ Best Profitable Category: *{best_cat}* | ⚠️ Loss Orders: *{loss_orders}* | 📈 Total Categories: *{filtered_df['Category'].nunique()}*")
 
-col_c, col_d = st.columns(2)
+# --- TABLES ---
+st.subheader("📋 Data")
+tab1, tab2 = st.tabs(["Top Products", "Loss Products"])
+with tab1:
+    st.dataframe(filtered_df.groupby('Product')[['Sales','Profit','Quantity']].sum().sort_values('Sales', ascending=False).head(20), use_container_width=True)
+with tab2:
+    loss_df = filtered_df[filtered_df['Profit'] < 0]
+    st.dataframe(loss_df.style.applymap(lambda x: 'background-color: #ffcccc', subset=['Profit']), use_container_width=True)
 
-with col_c:
-    fig3 = px.bar(filtered_df.groupby('Customer_Segment')['Profit'].sum().reset_index(), x='Customer_Segment', y='Profit', color='Customer_Segment', title="Profit by Customer Segment")
-    st.plotly_chart(fig3, use_container_width=True)
-
-with col_d:
-    fig4 = px.line(filtered_df.groupby('Order_Date')['Sales'].sum().reset_index(), x='Order_Date', y='Sales', title="Sales Over Time")
-    st.plotly_chart(fig4, use_container_width=True)
-
-# --- DATA TABLE ---
-st.subheader("Detailed Data")
-st.dataframe(filtered_df.head(200), use_container_width=True)
-
-# --- DOWNLOAD ---
-csv = filtered_df.to_csv(index=False).encode('utf-8')
-st.download_button("Download Filtered Data as CSV", csv, "filtered_sales.csv", "text/csv")
+st.download_button("📥 Download Full Filtered CSV", filtered_df.to_csv(index=False).encode('utf-8'), "pro_sales.csv", "text/csv")
