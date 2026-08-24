@@ -7,7 +7,7 @@ st.title("📊 E-Commerce Sales Analytics ")
 
 @st.cache_data
 def get_data():
-    df = pd.read_csv('data/sales_data.xlsx')
+    df = pd.read_excel('data/sales_data.xlsx')
     df['Order_Date'] = pd.to_datetime(df['Order_Date'])
     df['YearMonth'] = df['Order_Date'].dt.strftime('%Y-%m')
     return df
