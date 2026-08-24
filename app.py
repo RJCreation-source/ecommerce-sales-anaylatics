@@ -7,7 +7,7 @@ st.title("📊 E-Commerce Sales Analytics Dashboard")
 
 @st.cache_data
 def get_data():
-    df = pd.read_excel('data/sales_data.csv.xlsx')
+    df = pd.read_csv('data/sales_x5f_data.csv.xlsx')
     return df
 
 df = get_data()
