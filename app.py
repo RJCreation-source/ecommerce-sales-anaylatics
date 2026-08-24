@@ -70,6 +70,6 @@ with tab1:
     st.dataframe(filtered_df.groupby('Product')[['Sales','Profit','Quantity']].sum().sort_values('Sales', ascending=False).head(20), use_container_width=True)
 with tab2:
     loss_df = filtered_df[filtered_df['Profit'] < 0]
-    st.dataframe(loss_df.style.applymap(lambda x: 'background-color: #ffcccc', subset=['Profit']), use_container_width=True)
+    st.dataframe(loss_df , use_container_width=True)
 
 st.download_button("📥 Download Full Filtered CSV", filtered_df.to_csv(index=False).encode('utf-8'), "pro_sales.csv", "text/csv")
