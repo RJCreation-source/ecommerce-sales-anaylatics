@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="E-Commerce Analytics ", layout="wide", page_icon="📊")
-st.title("📊 E-Commerce Sales Analytics - PRO Version")
+st.title("📊 E-Commerce Sales Analytics ")
 
 @st.cache_data
 def get_data():
